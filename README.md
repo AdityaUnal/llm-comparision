@@ -14,13 +14,19 @@ streamlit run frontend.py
 ## Working
 
 ![Screenshot from 2025-05-13 13-39-09](https://github.com/user-attachments/assets/397ec91c-20ca-45b8-88cc-1fd59f7c82f6)
-- The User enters LLM details in the text box on the left box.
-- The LLM details are checked by the generic prompt engine to see if they are valid.
-- If valid, they are shown on a checklist.
-- The user gives the prompt and then selects the LLMs they want to compare.
 
 ## Screenshots 
 
 ![Screenshot from 2025-05-13 13-45-44](https://github.com/user-attachments/assets/8da40783-ab7c-4be4-90e4-51d115f4909a)</br>
-![responses](https://github.com/user-attachments/assets/5d7ab76c-d22e-4d1a-bcbb-53d9e5d7402c)
+![responses](https://github.com/user-attachments/assets/809bd7cb-e25f-486d-8f82-66a93d872176)
+1. **Enter LLM Details**  
+   The user inputs LLM details (e.g., model name, API endpoint, or other configurations) in the text box on the left panel.
 
+2. **Validate LLM Details**  
+   The **Generic Prompt Engine** checks the entered details to ensure they are valid and can be queried.
+
+3. **Checklist Display**  
+   Once validated, the LLMs are added to a **checklist** UI component, allowing users to see which models are ready for comparison.
+
+4. **Enter Prompt and Select LLMs**  
+   The user enters a prompt/question and selects one or more LLMs from the checklist to **compare responses**.
