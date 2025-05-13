@@ -57,7 +57,7 @@ def show():
         for llm in st.session_state.selected_LLM:
             # LLMs_response.append(gpe.prompting(json.loads(llm), prompt))
 
-            LLMs_response.append("sample input of" + prompt)
+            LLMs_response.append("sample input of " + prompt)
         st.session_state.output.append(LLMs_response)
 
     def display_output():
